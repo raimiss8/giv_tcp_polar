@@ -20,7 +20,7 @@ DEFAULT_SLEEP = 0.5
 class GivEnergyClient:
     """Client for end users to conveniently access GivEnergy inverters."""
 
-    def __init__(self, host: str, port: int = 8899, modbus_client: ModbusTcpClient = None):
+    def __init__(self, host: str, port: int = 7654, modbus_client: ModbusTcpClient = None):
         self.host = host
         self.port = port
         if modbus_client is None:

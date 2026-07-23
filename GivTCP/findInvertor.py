@@ -67,7 +67,7 @@ class Threader:
 def findInvertor(subnet):
     segs=subnet.split('.')
     BASE_IP = segs[0]+'.'+segs[1]+'.'+segs[2]+'.'"%i"
-    PORT = 8899
+    PORT = 7654
     start = perf_counter()
     # I didn't need a timeout of 1 so I used 0.1
     socket.setdefaulttimeout(0.1)
