@@ -10,4 +10,5 @@ pickle-mixin
 flask-cors
 rq
 redis
+async-timeout
 git+https://github.com/jace/rq-dashboard.git
